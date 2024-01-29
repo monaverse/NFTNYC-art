@@ -78,6 +78,3 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets.meta
 
 /[Ee]xports/*
-
-# Ignore Jetbrains Rider control files
-.idea/

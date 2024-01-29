@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 64469961dd3170a448a7905ec26c20cd
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: fff0fc64c42275f4191b5fbb23975176, type: 3}
+  wrapMode: 0
+  filterMode: 1
+  anisoLevel: 1
+  isReadable: 1
+  textures:
+  - {fileID: 2800000, guid: 990916725026fea4a963f7aa5f12a754, type: 3}
+  - {fileID: 2800000, guid: 990916725026fea4a963f7aa5f12a754, type: 3}
+  - {fileID: 2800000, guid: 990916725026fea4a963f7aa5f12a754, type: 3}
+  - {fileID: 2800000, guid: 990916725026fea4a963f7aa5f12a754, type: 3}
+  - {fileID: 2800000, guid: 990916725026fea4a963f7aa5f12a754, type: 3}
+  - {fileID: 2800000, guid: 990916725026fea4a963f7aa5f12a754, type: 3}
+  - {fileID: 2800000, guid: 990916725026fea4a963f7aa5f12a754, type: 3}
