@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 2f12cae260e72324d8c2b3bf777a7ed4
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - PP Monument Extended
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 92c786144bc4bbf498e28c922a978f1d, type: 3}
+  - {fileID: 12800000, guid: def959f935969c04ea5462589108defc, type: 3}
+  - {fileID: 12800000, guid: c545f460b556dae4cb474b8ccc4b507e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

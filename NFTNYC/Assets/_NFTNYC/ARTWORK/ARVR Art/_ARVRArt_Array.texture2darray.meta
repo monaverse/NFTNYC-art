@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: abe72f4e6d9ff8840b6e2392929c0787
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: fff0fc64c42275f4191b5fbb23975176, type: 3}
+  wrapMode: 1
+  filterMode: 1
+  anisoLevel: 1
+  isReadable: 0
+  textures:
+  - {fileID: 2800000, guid: 583bf9be9e95f6a4eb7d28ec25b56051, type: 3}
+  - {fileID: 2800000, guid: 7fbcb1b15b169fb469f891d7de6ab270, type: 3}
+  - {fileID: 2800000, guid: 309a0713dd1c4ba458fe04156fc89eb4, type: 3}
+  - {fileID: 2800000, guid: 785f6c20bae35234fabe448004e1983e, type: 3}
+  - {fileID: 2800000, guid: 62303833b28637448b75b771564fb3e4, type: 3}
+  - {fileID: 2800000, guid: fabcc8d3c622ae64184b41daa47e2e6d, type: 3}
+  - {fileID: 2800000, guid: 421e82ab5bc584a4fadca21919e4ad40, type: 3}
+  - {fileID: 2800000, guid: eedf050dcddb9a6439b920c483aabf05, type: 3}
+  - {fileID: 2800000, guid: e89c3b03019f8984d90e3b06a089b35a, type: 3}
+  - {fileID: 2800000, guid: 30022996d89f2ac4ebe96fad0f2186d8, type: 3}
+  - {fileID: 2800000, guid: 2bbf4c8adda078a41b8d2b6510a19797, type: 3}
+  - {fileID: 2800000, guid: 07c6498236b7dfe45a47891d0b90a3a3, type: 3}
+  - {fileID: 2800000, guid: d3ef893454de10a44b6c1d611f8b3207, type: 3}
+  - {fileID: 2800000, guid: e02290f31951b4f4f934dfbf1e074646, type: 3}
