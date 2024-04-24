@@ -1,0 +1,132 @@
+fileFormatVersion: 2
+guid: 2bfc3cfac19efdf49b82ce4c54929e56
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Body
+    second: {fileID: 2100000, guid: 22e138c8324458846b21e45fa8ab68bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Eye
+    second: {fileID: 2100000, guid: 9a5c8bac70a214142a27b41935093d4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Hair
+    second: {fileID: 2100000, guid: cd7cedeeba77bea40abe4e43c6f01e22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Outfit_Bottom
+    second: {fileID: 2100000, guid: 9c7ed9be8631c4d45aee68aa10665025, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Outfit_Footwear
+    second: {fileID: 2100000, guid: 823314cfc9f2113458203925ae17b0be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Outfit_Top
+    second: {fileID: 2100000, guid: b247aabfa0eedb749942b2e4b3c11e55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Skin
+    second: {fileID: 2100000, guid: ba2f7f63079ebd244ac49b34fc07dde0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Teeth
+    second: {fileID: 2100000, guid: 43408a6126971ae4b836ac71cc3539bf, type: 2}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Teeth
+    second: {fileID: 2800000, guid: 8fcedf0afa5ff9446b5e45075b2fd6e9, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: baseColor
+    second: {fileID: 2800000, guid: 603b13e4cc05012419cdfbcfacc3cdcb, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: baseColor__UNIGLTF__DUPLICATED__2
+    second: {fileID: 2800000, guid: 3f87e94c122f7f9448b2e33aa05d1acd, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: baseColor__UNIGLTF__DUPLICATED__3
+    second: {fileID: 2800000, guid: c94c74a4f125a644793480c9a0439d25, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: baseColor__UNIGLTF__DUPLICATED__4
+    second: {fileID: 2800000, guid: 1f5ead6ac6ebd9349b72573c9a71ed7c, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: body-athletic-f-N.normal
+    second: {fileID: 2800000, guid: d05e7a00886ac3742b592ce59f6bd6e1, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: hair-60-N.normal
+    second: {fileID: 2800000, guid: e515c2f87a4420443b2f4f00299f05a8, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: outfit-cyberpunk-04-v2-f-bottom-D
+    second: {fileID: 2800000, guid: 5f737c663639d7b459192f979b97406b, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: outfit-cyberpunk-04-v2-f-bottom-N.normal
+    second: {fileID: 2800000, guid: ba37a33169e0f924b9dc8d1db66873d5, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: outfit-cyberpunk-04-v2-f-bottom-R.standard
+    second: {fileID: 2800000, guid: 50e203c1104b4b645ba189d5ca5ca96c, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: outfit-cyberpunk-04-v2-f-footwear-D
+    second: {fileID: 2800000, guid: e7c792081fb6dc4458b91aca8bcbb6dd, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: outfit-cyberpunk-04-v2-f-footwear-N.normal
+    second: {fileID: 2800000, guid: 68a33f4fa10582f4f9def320a182fb09, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: outfit-cyberpunk-04-v2-f-footwear-R.standard
+    second: {fileID: 2800000, guid: 153388a061e364a4dba07e5fad5599ff, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: outfit-racing-02-v2-m-top-D
+    second: {fileID: 2800000, guid: 59d218c137e279241b3686e5244cbe3a, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: outfit-racing-02-v2-m-top-M-outfit-racing-02-v2-m-top-R.standard
+    second: {fileID: 2800000, guid: 936258b1332b9a642939e7c4fb6bdbf8, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: outfit-racing-02-v2-m-top-N.normal
+    second: {fileID: 2800000, guid: 544a263377559494e98f8a4ca1971bdb, type: 3}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: cc45016b844e7624dae3aec10fb443ea, type: 3}
+  reverseAxis: 0
+  renderPipeline: 0

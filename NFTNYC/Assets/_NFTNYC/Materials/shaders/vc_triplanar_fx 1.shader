@@ -151,7 +151,7 @@
 
             half3 pos = IN.vertexPosition.xyz;
             _Amp = 1/_Amp;
-            float dist = pos.x / 2;
+            float dist = (pos.x + pos.z) / 2;
 
             fixed4 mask = TriplanarTexture(_Mask, IN.worldPos, IN.worldNormal, _TriplanarScale, 0);
             fixed4 tex = TriplanarTexture(_RGB, IN.worldPos, IN.worldNormal, _TriplanarScale, 0);

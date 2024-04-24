@@ -6,7 +6,9 @@
         _Mask ("Mask", 2D) = "white" {}
         _RGB ("Texture", 2D) = "white" {}
         _RoughTex("Roughness Texture", 2D) = "white" {}
+        _NormalTex("Normal Texture", 2D) = "white" {}
         _Glossiness ("Smoothness", Range(0,1)) = 0.5
+        _Metal ("Metallic", Range(0,1)) = 0
         _Amp("Wave Amplitude", Float) = 10
         _Scan("Wave Scan", Float) = 1.0
         _Orig("Wave Origin", Vector) = (0,0,0,0)
@@ -29,7 +31,9 @@
         sampler2D _Mask;
         sampler2D _RGB;
         sampler2D _RoughTex;
+        sampler2D _NormalTex;
         half _Glossiness;
+        half _Metal;
         float _TriplanarScale;
         float4x4 _Transform;
         half _Amp;
@@ -142,17 +146,17 @@
             fixed4 mask = TriplanarTexture(_Mask, IN.worldPos, IN.worldNormal, _TriplanarScale);
             fixed4 tex = TriplanarTexture(_RGB, IN.worldPos, IN.worldNormal, _TriplanarScale);
             float4 rough = TriplanarTexture(_RoughTex, IN.worldPos, IN.worldNormal, _TriplanarScale);
-            //float4 normal = tex2D (_NormalTex, IN.uv_Mask);
+            float4 normal = tex2D (_NormalTex, IN.uv_Mask);
             float3 col = IN.vertColor.rgb;
             //float hueShiftAmount = 30; // Adjust this value to shift hue
             _HueShift = (_HueShift * 360) - 180;
             col = ShiftHue(col, _HueShift);
 
-            //normal = normalize(normal);
+            normal = normalize(normal);
 
             //normal = max(normal,c.r/c.b);
             
-            //o.Normal = 1;
+            //o.Normal = normal;
             float multi = 0.15;
             
             //col = clamp(_Color*(3-(dist/1.8)),0,1) * round(mask.r) + col;
@@ -160,10 +164,11 @@
             col = col * clamp(tex + multi,0,1) * _Color;
             o.Smoothness = _Glossiness * rough;
             
-            o.Alpha = 1;
+            //o.Alpha = 1;
             //o.Normal = UnpackNormal(normal);
             col = GammaToLinearSpace(col);
             o.Emission = clamp(col.rgb,0,10);
+            o.Metallic = _Metal;
         }
         ENDCG
     }

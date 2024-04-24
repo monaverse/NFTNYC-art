@@ -110,6 +110,8 @@ SubShader {
 	Blend One OneMinusSrcAlpha
 	ColorMask [_ColorMask]
 
+	Offset -2, -30
+
 	Pass {
 		CGPROGRAM
 		#pragma target 3.0

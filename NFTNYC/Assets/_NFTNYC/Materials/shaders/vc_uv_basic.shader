@@ -125,6 +125,7 @@
             
             //fixed4 tex = TriplanarTexture(_RGB, IN.worldPos, IN.worldNormal, _TriplanarScale);
             fixed4 tex = tex2D (_RGB, IN.uv_Mask);
+            float4 rough = tex2D (_RoughTex, IN.uv_Mask);
             
             //float4 normal = tex2D (_NormalTex, IN.uv_Mask);
             float3 col = IN.vertColor.rgb;
@@ -142,7 +143,7 @@
             //col = clamp(_Color*(3-(dist/1.8)),0,1) * round(mask.r) + col;
             //col = (round(clamp(((_Color * fmod((sin(dist*2+_Scan)),1)/_Amp)/(dist*dist/3+2)),0,1) * mask.r) + col) * clamp(tex + multi,0,1);
             col = col * clamp(tex + multi,0,1) * _Color;
-            o.Smoothness = 0;
+            o.Smoothness = _Glossiness * rough;
             
             o.Alpha = 1;
             //o.Normal = UnpackNormal(normal);
